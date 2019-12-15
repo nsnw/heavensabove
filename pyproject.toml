@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "heavensabove"
+version = "0.1.0"
+description = ""
+authors = ["Andy Smith <andy@nsnw.ca>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+requests = "^2.22"
+beautifulsoup4 = "^4.8"
+pytz = "^2019.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.0"
+bpython = "^0.18.0"
+jupyterlab = "^1.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
